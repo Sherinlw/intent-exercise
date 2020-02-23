@@ -18,8 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.25"
-            />
+            app:layout_constraintGuide_percent="0.28" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/image_profile"
@@ -165,18 +164,17 @@
 
         <TextView
             android:id="@+id/title_homepage"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:layout_height="28dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/futura_pt_demibold"
-            android:text="Email"
+            android:text="Home Page"
             android:textAlignment="textStart"
             android:textSize="20sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/separator3"
-            />
+            app:layout_constraintTop_toBottomOf="@id/separator3" />
 
         <TextView
             android:id="@+id/label_homepage"
@@ -217,6 +215,7 @@
             android:text="Visit My Homepage"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
+            android:onClick="handleHomepage"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/separator4"
