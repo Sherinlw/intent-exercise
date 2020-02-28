@@ -42,7 +42,7 @@
                 android:layout_height="60dp"
 
                 android:clickable="true"
-
+                android:onClick="handleChangeImage"
                 app:layout_constraintBottom_toBottomOf="@+id/image_profile"
                 app:layout_constraintEnd_toEndOf="@+id/image_profile"
                 app:srcCompat="@drawable/edit_icon"

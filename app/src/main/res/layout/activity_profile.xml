@@ -215,7 +215,7 @@
             android:text="Visit My Homepage"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:onClick="handleHomepage"
+            android:onClick="handleHomePage"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/separator4"
